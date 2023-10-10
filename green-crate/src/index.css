@@ -1,0 +1,100 @@
+
+@import url("https://fonts.googleapis.com/css2?&family=Maven+Pro:wght@400;500;600&family=Raleway:wght@400;600&family=Uncial+Antiqua&display=swap");
+/* 
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Uncial Antiqua', cursive; 
+*/
+
+:root {
+  /* colors */
+  --clr-pistachio: #93c572;
+  --clr-tea-green: #c8ebb1;
+  --clr-black-chocolate: #14250f;
+
+  --clr-heading:linear-gradient(to bottom, #305025 0%, #ada622 100%);
+  --clr-title:linear-gradient(to bottom, #4b7c3a, #ada622);
+
+  /* sizes */
+  --size-4xs: 0.125rem; /* 2px */
+  --size-3xs: 0.25rem;  /* 4px */
+  --size-2xs: 0.5rem;   /* 8px */
+  --size-xs: 0.75rem;   /* 12px */
+  --size-sm: 0.875rem;  /* 15px */
+  --size-base: 1rem;    /* 16px */
+  --size-lg: 1.125rem;  /* 18px */
+  --size-xl: 1.25rem;   /* 20px */
+  --size-2xl: 1.5rem;   /* 24px */
+  --size-3xl: 1.875rem; /* 30px */
+  --size-4xl: 2.25rem;  /* 36px */
+  --size-5xl: 3rem;     /* 48px */
+  --size-6xl: 3.75rem;  /* 60px */
+  --size-7xl: 4.5rem;   /* 72px */
+  --size-8xl: 6rem;     /* 96px */
+  --size-9xl: 8rem;     /* 128px */
+  --size-10xl: 10rem;   /* 160px */
+
+  /* fonts */
+  --fnt-heading:'Raleway', sans-serif;
+  --fnt-title :'Uncial Antiqua', cursive;
+  --fnt-peragraph:'Maven Pro', sans-serif;
+
+
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #305025, #ada622);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #153b0b;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #145305;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Maven Pro", sans-serif;
+}
+
+body {
+  background: linear-gradient(to left, #93c572, #c8ebb1);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+#root {
+  max-width: 1280px;
+  margin-inline: auto;
+}

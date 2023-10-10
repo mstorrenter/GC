@@ -1,0 +1,88 @@
+/*_________RESPONSIVE___________*/
+
+/* _____________2XL_____________ */
+/* @media (max-width: 1536px) {} */
+
+/* _____________XL_____________ */
+/* @media (max-width: 1280px) {} */
+
+/* _____________LG_____________ */
+/* @media (max-width: 1024px) {} */
+
+/* _____________MD_____________ */
+/* @media (max-width: 768px) {} */
+
+/* _____________SM_____________ */
+/* @media (max-width: 640px) {} */
+
+/* _____________XS_____________ */
+/* @media (max-width: 475px) {} */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
+}
+
+/* _____________XS_____________ */
+@media (max-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* _____________SM_____________ */
+@media (max-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* _____________MD_____________ */
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* _____________LG_____________ */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  /* .section {
+    margin-top: 10rem;
+  } */
+}
+
+/* _____________XL_____________ */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+

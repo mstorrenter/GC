@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@400;600&family=Quicksand:wght@400;600&family=Raleway:wght@400;600&family=Uncial+Antiqua&display=swap");
+/* 
+font-family: 'Forum', cursive;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Uncial Antiqua', cursive; 
+*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #305025, #ada622);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #214b16;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #297217;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Maven Pro", sans-serif;
+}
+
+body {
+  background: linear-gradient(to left, #93c572, #c8ebb1);
+}
+
+#root {
+  max-width: 1280px;
+  margin-inline: auto;
+}
